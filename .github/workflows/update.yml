@@ -1,94 +1,41 @@
-const fs = require("fs");
-const axios = require("axios");
+name: Update Repository List
 
-const username = "AkaTriggered"; // Replace with your GitHub username
-const tags = ["discord-bot", "bot", "discord"]; // Tags to filter repositories
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual triggering of the workflow
 
-// GitHub API URL
-const apiUrl = `https://api.github.com/users/${username}/repos`;
+jobs:
+  update-repository-list:
+    runs-on: ubuntu-latest
 
-// Fetch repositories
-async function fetchRepos() {
-  try {
-    const response = await axios.get(apiUrl);
-    const repos = response.data.filter((repo) =>
-      tags.some((tag) => repo.topics && repo.topics.includes(tag))
-    );
+    steps:
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    return repos.map((repo) => ({
-      name: repo.name,
-      description: repo.description,
-      url: repo.html_url,
-    }));
-  } catch (error) {
-    console.error("Error fetching repositories:", error.message);
-    process.exit(1);
-  }
-}
+      # Fetch repositories with the `discord` topic and create a list
+      - name: Fetch Repositories with Discord Topic
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/search/repositories?q=topic:discord+user:${{ github.repository_owner }}&sort=stars&order=desc" \
+          | jq -r '.items[] | "- [\(.full_name)](\(.html_url)) - 🌟 \(.stargazers_count) stars"' > REPO_LIST.md
 
-// Generate HTML content
-function generateHTML(repos) {
-  return `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${username}'s GitHub Repositories</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: #f4f4f9;
-      color: #333;
-    }
-    h1 {
-      color: #0366d6;
-    }
-    .repo {
-      border: 1px solid #ddd;
-      padding: 15px;
-      margin: 10px 0;
-      border-radius: 8px;
-      background: #fff;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h1>${username}'s Repositories</h1>
-  <div>
-    ${repos
-      .map(
-        (repo) =>
-          `<div class="repo">
-            <h2><a href="${repo.url}" target="_blank">${repo.name}</a></h2>
-            <p>${repo.description || "No description available."}</p>
-          </div>`
-      )
-      .join("")}
-  </div>
-</body>
-</html>
-  `;
-}
+      # Format the markdown file with a header
+      - name: Add Header to Markdown
+        run: |
+          echo "# Discord Repositories by ${{ github.repository_owner }}" > index.md
+          echo >> index.md
+          cat REPO_LIST.md >> index.md
+          rm REPO_LIST.md
 
-// Main function to fetch repos and update the page
-async function updatePage() {
-  const repos = await fetchRepos();
-  const htmlContent = generateHTML(repos);
-
-  // Save to index.html (GitHub Pages root file)
-  fs.writeFileSync("index.html", htmlContent);
-  console.log("Page updated successfully!");
-}
-
-// Run the script
-updatePage();
+      # Commit and push changes to the repository
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git commit -m "Update repository list with Discord-tagged projects"
+          git push
