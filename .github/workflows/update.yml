@@ -1,0 +1,94 @@
+const fs = require("fs");
+const axios = require("axios");
+
+const username = "AkaTriggered"; // Replace with your GitHub username
+const tags = ["discord-bot", "bot", "discord"]; // Tags to filter repositories
+
+// GitHub API URL
+const apiUrl = `https://api.github.com/users/${username}/repos`;
+
+// Fetch repositories
+async function fetchRepos() {
+  try {
+    const response = await axios.get(apiUrl);
+    const repos = response.data.filter((repo) =>
+      tags.some((tag) => repo.topics && repo.topics.includes(tag))
+    );
+
+    return repos.map((repo) => ({
+      name: repo.name,
+      description: repo.description,
+      url: repo.html_url,
+    }));
+  } catch (error) {
+    console.error("Error fetching repositories:", error.message);
+    process.exit(1);
+  }
+}
+
+// Generate HTML content
+function generateHTML(repos) {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${username}'s GitHub Repositories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f9;
+      color: #333;
+    }
+    h1 {
+      color: #0366d6;
+    }
+    .repo {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      background: #fff;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>${username}'s Repositories</h1>
+  <div>
+    ${repos
+      .map(
+        (repo) =>
+          `<div class="repo">
+            <h2><a href="${repo.url}" target="_blank">${repo.name}</a></h2>
+            <p>${repo.description || "No description available."}</p>
+          </div>`
+      )
+      .join("")}
+  </div>
+</body>
+</html>
+  `;
+}
+
+// Main function to fetch repos and update the page
+async function updatePage() {
+  const repos = await fetchRepos();
+  const htmlContent = generateHTML(repos);
+
+  // Save to index.html (GitHub Pages root file)
+  fs.writeFileSync("index.html", htmlContent);
+  console.log("Page updated successfully!");
+}
+
+// Run the script
+updatePage();
