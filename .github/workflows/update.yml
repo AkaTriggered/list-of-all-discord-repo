@@ -1,41 +1,46 @@
-name: Update Repository List
+name: Update Discord Repositories List
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
-  update-repository-list:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Fetch repositories with the `discord` topic and create a list
-      - name: Fetch Repositories with Discord Topic
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch Repositories with "discord" Topic
+        id: fetch_repos
         run: |
-          curl -s -H "Authorization: token $GITHUB_TOKEN" \
-          "https://api.github.com/search/repositories?q=topic:discord+user:${{ github.repository_owner }}&sort=stars&order=desc" \
-          | jq -r '.items[] | "- [\(.full_name)](\(.html_url)) - 🌟 \(.stargazers_count) stars"' > REPO_LIST.md
+          echo "## Discord-Tagged Repositories" > README.md
+          echo "Updated daily with the latest repositories related to Discord bots or projects." >> README.md
+          echo "" >> README.md
 
-      # Format the markdown file with a header
-      - name: Add Header to Markdown
-        run: |
-          echo "# Discord Repositories by ${{ github.repository_owner }}" > index.md
-          echo >> index.md
-          cat REPO_LIST.md >> index.md
-          rm REPO_LIST.md
+          page=1
+          while [ $page -le 5 ]; do
+            repos=$(curl -s "https://api.github.com/search/repositories?q=topic:discord&sort=stars&order=desc&page=$page" | jq -r '.items[] | "### [\(.name)](\(.html_url))\n\n**Description**: \(.description // "No description provided.")\n\n**Stars**: ⭐ \(.stargazers_count)\n---\n"')
 
-      # Commit and push changes to the repository
-      - name: Commit and Push Changes
+            if [ -z "$repos" ]; then
+              break
+            fi
+
+            echo "$repos" >> README.md
+            page=$((page + 1))
+          done
+
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.md
-          git commit -m "Update repository list with Discord-tagged projects"
+
+      - name: Commit Changes
+        run: |
+          git add README.md
+          git commit -m "Update Discord repositories list"
           git push
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
