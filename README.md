@@ -5,77 +5,77 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: :zap: A Fast, Extensible Progress Bar for Python and CLI
 
-**Stars**: ⭐ 29447
+**Stars**: ⭐ 29453
 ---
 
 ### [discord.js](https://github.com/discordjs/discord.js)
 
 **Description**: A powerful JavaScript library for interacting with the Discord API
 
-**Stars**: ⭐ 25759
+**Stars**: ⭐ 25761
 ---
 
 ### [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)
 
 **Description**: A lightweight utility that makes the Windows taskbar translucent/transparent.
 
-**Stars**: ⭐ 16653
+**Stars**: ⭐ 16662
 ---
 
 ### [discord.py](https://github.com/Rapptz/discord.py)
 
 **Description**: An API wrapper for Discord written in Python.
 
-**Stars**: ⭐ 15208
+**Stars**: ⭐ 15211
 ---
 
 ### [kirara-ai](https://github.com/lss233/kirara-ai)
 
 **Description**: 🤖 可 DIY 的 多模态 AI 聊天机器人 | 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 | 🦈支持DeepSeek、Grok、Claude、Ollama、Gemini、OpenAI | 工作流系统、网页搜索、AI画图、人设调教、虚拟女仆、语音对话 | 
 
-**Stars**: ⭐ 14530
+**Stars**: ⭐ 14561
 ---
 
 ### [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2)
 
 **Description**: An open source re-implementation of RollerCoaster Tycoon 2 🎢
 
-**Stars**: ⭐ 14099
+**Stars**: ⭐ 14107
 ---
 
 ### [Vencord](https://github.com/Vendicated/Vencord)
 
 **Description**: The cutest Discord client mod
 
-**Stars**: ⭐ 10169
+**Stars**: ⭐ 10173
 ---
 
 ### [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
 
 **Description**: Exports Discord chat logs to a file
 
-**Stars**: ⭐ 8315
+**Stars**: ⭐ 8318
 ---
 
 ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
 **Description**: Better Discord enhances Discord desktop app with new features.
 
-**Stars**: ⭐ 8279
+**Stars**: ⭐ 8281
 ---
 
 ### [gef](https://github.com/hugsy/gef)
 
 **Description**: GEF (GDB Enhanced Features) - a modern experience for GDB with advanced debugging capabilities for exploit devs & reverse engineers on Linux
 
-**Stars**: ⭐ 7306
+**Stars**: ⭐ 7313
 ---
 
 ### [matterbridge](https://github.com/42wim/matterbridge)
 
 **Description**: bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble, vk and more with REST API (mattermost not required!)
 
-**Stars**: ⭐ 6877
+**Stars**: ⭐ 6876
 ---
 
 ### [community-edition](https://github.com/ramboxapp/community-edition)
@@ -89,56 +89,56 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Official Discord API Documentation
 
-**Stars**: ⭐ 6097
+**Stars**: ⭐ 6099
 ---
 
 ### [spacebarchat](https://github.com/spacebarchat/spacebarchat)
 
 **Description**: 📬 Spacebar is a free open source selfhostable discord compatible communication platform
 
-**Stars**: ⭐ 5690
+**Stars**: ⭐ 5691
 ---
 
 ### [undiscord](https://github.com/victornpb/undiscord)
 
 **Description**: Undiscord - Delete all messages in a Discord server / channel or DM (Easy and fast) Bulk delete
 
-**Stars**: ⭐ 5654
+**Stars**: ⭐ 5658
 ---
 
 ### [MusicBot](https://github.com/jagrosh/MusicBot)
 
 **Description**: 🎶 A Discord music bot that's easy to set up and run yourself!
 
-**Stars**: ⭐ 5547
+**Stars**: ⭐ 5548
 ---
 
 ### [discordgo](https://github.com/bwmarrin/discordgo)
 
 **Description**:  (Golang) Go bindings for Discord
 
-**Stars**: ⭐ 5282
+**Stars**: ⭐ 5285
 ---
 
 ### [serenity](https://github.com/serenity-rs/serenity)
 
 **Description**: A Rust library for the Discord API.
 
-**Stars**: ⭐ 5003
+**Stars**: ⭐ 5009
 ---
 
 ### [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot)
 
 **Description**: A multi-function Discord bot
 
-**Stars**: ⭐ 4977
+**Stars**: ⭐ 4980
 ---
 
 ### [koishi](https://github.com/koishijs/koishi)
 
 **Description**: Cross-platform chatbot framework made with love
 
-**Stars**: ⭐ 4746
+**Stars**: ⭐ 4748
 ---
 
 ### [JDA](https://github.com/discord-jda/JDA)
@@ -152,49 +152,49 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A Desktop App for YouTube Music
 
-**Stars**: ⭐ 4286
+**Stars**: ⭐ 4289
 ---
 
 ### [Aliucord](https://github.com/Aliucord/Aliucord)
 
 **Description**: A modification for the Discord Android App
 
-**Stars**: ⭐ 3943
+**Stars**: ⭐ 3945
 ---
 
 ### [diun](https://github.com/crazy-max/diun)
 
 **Description**: Receive notifications when an image is updated on a Docker registry
 
-**Stars**: ⭐ 3421
+**Stars**: ⭐ 3426
 ---
 
 ### [Discord.Net](https://github.com/discord-net/Discord.Net)
 
 **Description**: An unofficial .Net wrapper for the Discord API (https://discord.com/)
 
-**Stars**: ⭐ 3376
+**Stars**: ⭐ 3375
 ---
 
 ### [notify](https://github.com/nikoksr/notify)
 
 **Description**: A dead simple Go library for sending notifications to various messaging services.
 
-**Stars**: ⭐ 3260
+**Stars**: ⭐ 3261
 ---
 
 ### [MusicBot](https://github.com/Just-Some-Bots/MusicBot)
 
 **Description**: :musical_note: The original MusicBot for Discord (formerly SexualRhinoceros/MusicBot)
 
-**Stars**: ⭐ 3186
+**Stars**: ⭐ 3185
 ---
 
 ### [tailchat](https://github.com/msgbyte/tailchat)
 
 **Description**: Next generation noIM application in your own workspace, not only another Slack/Discord/Rocket.chat
 
-**Stars**: ⭐ 3147
+**Stars**: ⭐ 3149
 ---
 
 ### [Discord-MusicBot](https://github.com/SudhanPlayz/Discord-MusicBot)
@@ -208,13 +208,13 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: 搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用
 
-**Stars**: ⭐ 3024
+**Stars**: ⭐ 3025
 ---
 ### [awesome-discord-communities](https://github.com/mhxion/awesome-discord-communities)
 
 **Description**: A curated list of awesome Discord communities for programmers
 
-**Stars**: ⭐ 2963
+**Stars**: ⭐ 2965
 ---
 
 ### [FFXIVQuickLauncher](https://github.com/goatcorp/FFXIVQuickLauncher)
@@ -228,7 +228,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Pycord is a modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python
 
-**Stars**: ⭐ 2792
+**Stars**: ⭐ 2787
 ---
 
 ### [linen.dev](https://github.com/Linen-dev/linen.dev)
@@ -242,14 +242,14 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Integrate ChatGPT into your own discord bot
 
-**Stars**: ⭐ 2697
+**Stars**: ⭐ 2696
 ---
 
 ### [discordo](https://github.com/ayn2op/discordo)
 
 **Description**: A lightweight, secure, and feature-rich Discord terminal client.
 
-**Stars**: ⭐ 2502
+**Stars**: ⭐ 2503
 ---
 
 ### [API](https://github.com/disease-sh/API)
@@ -277,28 +277,28 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A series of plugins and themes for BetterDiscord.
 
-**Stars**: ⭐ 2170
+**Stars**: ⭐ 2165
 ---
 
 ### [WebCord](https://github.com/SpacingBat3/WebCord)
 
 **Description**: A Discord and SpaceBar :electron:-based client implemented without Discord API.
 
-**Stars**: ⭐ 2081
+**Stars**: ⭐ 2082
 ---
 
 ### [Essentials](https://github.com/EssentialsX/Essentials)
 
 **Description**: The modern Essentials suite for Spigot and Paper.
 
-**Stars**: ⭐ 2024
+**Stars**: ⭐ 2023
 ---
 
 ### [Legcord](https://github.com/Legcord/Legcord)
 
 **Description**: Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 
-**Stars**: ⭐ 2017
+**Stars**: ⭐ 2021
 ---
 
 ### [poketwo-Autocatcher](https://github.com/Team-BANERUS/poketwo-Autocatcher)
@@ -319,14 +319,14 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A Super-fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot, Ubisoft and many others!
 
-**Stars**: ⭐ 1904
+**Stars**: ⭐ 1905
 ---
 
 ### [Shuffle](https://github.com/Shuffle/Shuffle)
 
 **Description**: Shuffle: A general purpose security automation platform. Our focus is on collaboration and resource sharing.
 
-**Stars**: ⭐ 1877
+**Stars**: ⭐ 1878
 ---
 
 ### [evobot](https://github.com/eritislami/evobot)
@@ -347,7 +347,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
 
-**Stars**: ⭐ 1818
+**Stars**: ⭐ 1817
 ---
 
 ### [Installer](https://github.com/BetterDiscord/Installer)
@@ -368,7 +368,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A Discord mobile app client modification.
 
-**Stars**: ⭐ 1745
+**Stars**: ⭐ 1749
 ---
 
 ### [AmogOS](https://github.com/Amog-OS/AmogOS)
@@ -389,21 +389,21 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Standalone audio sending node based on Lavaplayer.
 
-**Stars**: ⭐ 1649
+**Stars**: ⭐ 1650
 ---
 
 ### [lightnovel-crawler](https://github.com/dipu-bd/lightnovel-crawler)
 
 **Description**: Generate and download e-books from online sources.
 
-**Stars**: ⭐ 1629
+**Stars**: ⭐ 1630
 ---
 
 ### [Soundux](https://github.com/Soundux/Soundux)
 
 **Description**: 🔊 A cross-platform soundboard
 
-**Stars**: ⭐ 1621
+**Stars**: ⭐ 1623
 ---
 
 ### [guide](https://github.com/discordjs/guide)
@@ -417,7 +417,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A Discord bot that functions as a shared inbox between staff and members, similar to Reddit's Modmail.
 
-**Stars**: ⭐ 1589
+**Stars**: ⭐ 1590
 ---
 ### [Discord3rdparties](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties)
 
@@ -430,28 +430,28 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: PixiEditor is a pixel art editor made with .NET 8
 
-**Stars**: ⭐ 1576
+**Stars**: ⭐ 1577
 ---
 
 ### [server](https://github.com/spacebarchat/server)
 
 **Description**: Spacebar server - A reimplementation of the Discord.com backend, built with Typescript and love
 
-**Stars**: ⭐ 1541
+**Stars**: ⭐ 1543
 ---
 
 ### [eris](https://github.com/abalabahaha/eris)
 
 **Description**: A NodeJS Discord library
 
-**Stars**: ⭐ 1496
+**Stars**: ⭐ 1495
 ---
 
 ### [pufferpanel](https://github.com/pufferpanel/pufferpanel)
 
 **Description**: PufferPanel is an open source game server management panel, designed for both small networks and personal use
 
-**Stars**: ⭐ 1453
+**Stars**: ⭐ 1455
 ---
 
 ### [dissent](https://github.com/diamondburned/dissent)
@@ -465,35 +465,35 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: The community bot for the Python Discord community
 
-**Stars**: ⭐ 1412
+**Stars**: ⭐ 1414
 ---
 
 ### [notify](https://github.com/projectdiscovery/notify)
 
 **Description**: Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
 
-**Stars**: ⭐ 1397
+**Stars**: ⭐ 1398
 ---
 
 ### [TradingView-Webhook-Bot](https://github.com/fabston/TradingView-Webhook-Bot)
 
 **Description**: 📊 Send TradingView alerts to Telegram, Discord, Slack, Twitter and Email. 
 
-**Stars**: ⭐ 1371
+**Stars**: ⭐ 1373
 ---
 
 ### [Interstellar](https://github.com/UseInterstellar/Interstellar)
 
 **Description**: One of the most popular modern web proxies with blazing fast speeds and a variety of games.
 
-**Stars**: ⭐ 1358
+**Stars**: ⭐ 1365
 ---
 
 ### [WeakAuras2](https://github.com/WeakAuras/WeakAuras2)
 
 **Description**: World of Warcraft addon that provides a powerful framework to display customizable graphics on your screen.
 
-**Stars**: ⭐ 1349
+**Stars**: ⭐ 1350
 ---
 
 ### [OpenCord](https://github.com/MateriiApps/OpenCord)
@@ -510,18 +510,18 @@ Updated daily with the latest repositories related to Discord bots or projects.
 **Stars**: ⭐ 1288
 ---
 
-### [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus)
-
-**Description**: A .NET library for making bots using the Discord API.
-
-**Stars**: ⭐ 1278
----
-
 ### [yagpdb](https://github.com/botlabs-gg/yagpdb)
 
 **Description**: Yet another general purpose discord bot
 
-**Stars**: ⭐ 1277
+**Stars**: ⭐ 1278
+---
+
+### [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus)
+
+**Description**: A .NET library for making bots using the Discord API.
+
+**Stars**: ⭐ 1276
 ---
 
 ### [Moosync-electron](https://github.com/Moosync/Moosync-electron)
@@ -556,7 +556,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: An alternative Discord client with voice support made with C++ and GTK 3
 
-**Stars**: ⭐ 1156
+**Stars**: ⭐ 1158
 ---
 
 ### [DPP](https://github.com/brainboxdotcc/DPP)
@@ -591,7 +591,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Powering Discord content discovery by making web pages from threads for some of the largest servers, including Valorant, Cloudflare, C#, and Nuxt.
 
-**Stars**: ⭐ 1081
+**Stars**: ⭐ 1082
 ---
 
 ### [bot](https://github.com/discord-tickets/bot)
@@ -605,7 +605,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: 🏷️   Expose your Discord presence and activities to a RESTful API and WebSocket in less than 10 seconds
 
-**Stars**: ⭐ 1063
+**Stars**: ⭐ 1064
 ---
 
 ### [DiscordRPCMaker](https://github.com/ThatOneCalculator/DiscordRPCMaker)
@@ -615,11 +615,11 @@ Updated daily with the latest repositories related to Discord bots or projects.
 **Stars**: ⭐ 1052
 ---
 
-### [DiscordPHP](https://github.com/discord-php/DiscordPHP)
+### [MusicBot](https://github.com/umutxyp/MusicBot)
 
-**Description**: An API to interact with the popular messaging app Discord
+**Description**: A professional and completely free distube based music bot for your Discord server, compatible with the highly modernized discord.js v14.16 version.
 
-**Stars**: ⭐ 1028
+**Stars**: ⭐ 1029
 ---
 
 ### [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV)
@@ -628,9 +628,9 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Stars**: ⭐ 1028
 ---
-### [MusicBot](https://github.com/umutxyp/MusicBot)
+### [DiscordPHP](https://github.com/discord-php/DiscordPHP)
 
-**Description**: A professional and completely free distube based music bot for your Discord server, compatible with the highly modernized discord.js v14.16 version.
+**Description**: An API to interact with the popular messaging app Discord
 
 **Stars**: ⭐ 1028
 ---
@@ -653,7 +653,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Advanced RAT written in Python language, fully controllable through Discord with dedicated GUI builder to make preparation easier.
 
-**Stars**: ⭐ 983
+**Stars**: ⭐ 982
 ---
 
 ### [Online-Forever](https://github.com/SealedSaucer/Online-Forever)
@@ -681,7 +681,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**:  Idiomatic Kotlin Wrapper for The Discord API
 
-**Stars**: ⭐ 956
+**Stars**: ⭐ 957
 ---
 
 ### [automuteus](https://github.com/automuteus/automuteus)
@@ -695,7 +695,14 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: An unofficial discord.js fork for creating selfbots
 
-**Stars**: ⭐ 936
+**Stars**: ⭐ 938
+---
+
+### [discord](https://github.com/catppuccin/discord)
+
+**Description**: 🎮 Soothing pastel theme for Discord
+
+**Stars**: ⭐ 926
 ---
 
 ### [Music-bot](https://github.com/ZerioDev/Music-bot)
@@ -703,13 +710,6 @@ Updated daily with the latest repositories related to Discord bots or projects.
 **Description**: A complete code to download for a cool Discord music bot !
 
 **Stars**: ⭐ 926
----
-
-### [discord](https://github.com/catppuccin/discord)
-
-**Description**: 🎮 Soothing pastel theme for Discord
-
-**Stars**: ⭐ 925
 ---
 
 ### [Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full)
@@ -723,7 +723,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A patched version of discord, with bot login & Vencord support
 
-**Stars**: ⭐ 917
+**Stars**: ⭐ 918
 ---
 
 ### [discord-proxy](https://github.com/aiqinxuancai/discord-proxy)
@@ -737,7 +737,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: ATIO is a AIO Script Developed with Python3. It gathers a total of 23 Discord tools (including a RAT, a Raid Tool, a Token Grabber, a Crash Video Maker, etc). It has a pleasant and intuitive interface to facilitate the use of all with help and explanations for each of them.
 
-**Stars**: ⭐ 890
+**Stars**: ⭐ 891
 ---
 
 ### [requestrr](https://github.com/darkalfx/requestrr)
@@ -772,21 +772,21 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A BetterDiscord plugin which displays all hidden channels and allows users to view information about them.
 
-**Stars**: ⭐ 862
+**Stars**: ⭐ 863
 ---
 
 ### [interactions.py](https://github.com/interactions-py/interactions.py)
 
 **Description**: A highly extensible, easy to use, and feature complete bot framework for Discord
 
-**Stars**: ⭐ 860
+**Stars**: ⭐ 861
 ---
 
 ### [RedTiger-Tools](https://github.com/loxy0dev/RedTiger-Tools)
 
 **Description**: RedTiger-Tools is a free multi-tool with many features in the areas of Cybersecurity, Pentesting, OSINT, Network Scanning, Discord and Hacking.
 
-**Stars**: ⭐ 858
+**Stars**: ⭐ 859
 ---
 
 ### [discordeno](https://github.com/discordeno/discordeno)
@@ -800,7 +800,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: The official FiveM server management platform used by over 27k servers!
 
-**Stars**: ⭐ 844
+**Stars**: ⭐ 845
 ---
 
 ### [hikari](https://github.com/hikari-py/hikari)
@@ -828,7 +828,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A bridge between Matrix and Discord.
 
-**Stars**: ⭐ 838
+**Stars**: ⭐ 839
 ---
 
 ### [midnight-discord](https://github.com/refact0r/midnight-discord)
@@ -841,19 +841,19 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Fix Instagram embeds in Discord (and Telegram!)
 
-**Stars**: ⭐ 814
----
-
-### [RoboDanny](https://github.com/Rapptz/RoboDanny)
-
-**Description**: A discord bot for servers that I like.
-
-**Stars**: ⭐ 814
+**Stars**: ⭐ 815
 ---
 
 ### [Blank-Grabber](https://github.com/Blank-c/Blank-Grabber)
 
 **Description**: The most powerful stealer written in Python 3 and packed with a lot of features.
+
+**Stars**: ⭐ 815
+---
+
+### [RoboDanny](https://github.com/Rapptz/RoboDanny)
+
+**Description**: A discord bot for servers that I like.
 
 **Stars**: ⭐ 814
 ---
@@ -869,14 +869,14 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A clean, modern and robust overlay for Monster Hunter games.
 
-**Stars**: ⭐ 803
+**Stars**: ⭐ 805
 ---
 
 ### [chat-analytics](https://github.com/mlomb/chat-analytics)
 
 **Description**: Generate interactive, beautiful and insightful chat analysis reports
 
-**Stars**: ⭐ 790
+**Stars**: ⭐ 794
 ---
 
 ### [pingme](https://github.com/kha7iq/pingme)
@@ -904,21 +904,21 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: An easy to use multithreaded library for creating Discord bots in Java.
 
-**Stars**: ⭐ 772
+**Stars**: ⭐ 770
 ---
 
 ### [desafios-frontend](https://github.com/iuricode/desafios-frontend)
 
 **Description**: Desafios frontend
 
-**Stars**: ⭐ 762
+**Stars**: ⭐ 766
 ---
 
 ### [Zero-attacker](https://github.com/AsjadOooO/Zero-attacker)
 
 **Description**: Zero-attacker is an multipurpose hacking tool with over 15+ multifunction tools
 
-**Stars**: ⭐ 762
+**Stars**: ⭐ 764
 ---
 
 ### [reacord](https://github.com/itsMapleLeaf/reacord)
@@ -928,16 +928,16 @@ Updated daily with the latest repositories related to Discord bots or projects.
 **Stars**: ⭐ 755
 ---
 
-### [integrations](https://github.com/broidHQ/integrations)
-
-**Description**: Connect your App to Multiple Messaging Channels with the W3C Open standard.
-
-**Stars**: ⭐ 745
----
-
 ### [Dorion](https://github.com/SpikeHD/Dorion)
 
 **Description**: Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more!
+
+**Stars**: ⭐ 746
+---
+
+### [integrations](https://github.com/broidHQ/integrations)
+
+**Description**: Connect your App to Multiple Messaging Channels with the W3C Open standard.
 
 **Stars**: ⭐ 745
 ---
@@ -953,7 +953,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: An app that allows you to be inside a bot!
 
-**Stars**: ⭐ 737
+**Stars**: ⭐ 738
 ---
 
 ### [modmailbot](https://github.com/Dragory/modmailbot)
@@ -967,7 +967,14 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A collection of resources for women in tech, consisting of - courses, learning guides, amazing sites and repos, blogs, programs and events. scholarships, etc.
 
-**Stars**: ⭐ 734
+**Stars**: ⭐ 735
+---
+
+### [poise](https://github.com/serenity-rs/poise)
+
+**Description**: Discord bot command framework for serenity, with advanced features like edit tracking and flexible argument parsing
+
+**Stars**: ⭐ 733
 ---
 
 ### [disnake](https://github.com/DisnakeDev/disnake)
@@ -975,13 +982,6 @@ Updated daily with the latest repositories related to Discord bots or projects.
 **Description**: An API wrapper for Discord written in Python.
 
 **Stars**: ⭐ 733
----
-
-### [poise](https://github.com/serenity-rs/poise)
-
-**Description**: Discord bot command framework for serenity, with advanced features like edit tracking and flexible argument parsing
-
-**Stars**: ⭐ 732
 ---
 
 ### [TwitFix](https://github.com/daisyUniverse/TwitFix)
@@ -995,7 +995,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: Discord API library written in Lua for the Luvit runtime environment
 
-**Stars**: ⭐ 727
+**Stars**: ⭐ 728
 ---
 
 ### [twilight](https://github.com/twilight-rs/twilight)
@@ -1009,14 +1009,14 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A Discord Rich Presence manager for Android fully written in Kotlin. Made with jetpack compose and material3
 
-**Stars**: ⭐ 707
+**Stars**: ⭐ 708
 ---
 
 ### [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord)
 
 **Description**: Adds custom CSS support to Discord.
 
-**Stars**: ⭐ 702
+**Stars**: ⭐ 703
 ---
 
 ### [sleepy-discord](https://github.com/yourWaifu/sleepy-discord)
@@ -1037,7 +1037,7 @@ Updated daily with the latest repositories related to Discord bots or projects.
 
 **Description**: A patched version of discord, with bot login support
 
-**Stars**: ⭐ 695
+**Stars**: ⭐ 696
 ---
 
 ### [GiveawayBot](https://github.com/jagrosh/GiveawayBot)
